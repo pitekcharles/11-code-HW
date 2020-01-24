@@ -249,7 +249,7 @@
     $saveNoteBtn.on("click", handleNoteSave);
     $noteList.on("click", ".list-group-item", handleNoteView);
     $newNoteBtn.on("click", handleNewNoteView);
-    $(".delete-note").on("click", handleNoteDelete);
+    $noteList.on("click", ".delete-note", handleNoteDelete);
     $noteTitle.on("keyup", handleRenderSaveBtn);
     $noteText.on("keyup", handleRenderSaveBtn);
 
